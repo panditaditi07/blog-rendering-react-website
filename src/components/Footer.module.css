@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+footer {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #5d4037;
+}
+.facebook-icon,
+.twitter-icon,
+.linkedin-icon {
+  font-size: 30px;
+  background-color: #5d4037;
+  color: white;
+  margin: 15px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.icons {
+  background-color: #5d4037;
+}
+.footer-heading {
+  padding-top: 20px;
+  font-size: 25px;
+  /* margin-top: 15px; */
+  color: white;
+}
+.footer-heading {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+@media (max-width: 650px) {
+  .facebook-icon,
+  .twitter-icon,
+  .linkedin-icon {
+    font-size: 25px;
+  }
+  .footer-heading {
+    font-size: 20px;
+  }
+}
+@media (max-width: 200px) {
+  .facebook-icon,
+  .twitter-icon,
+  .linkedin-icon {
+    font-size: 20px;
+  }
+  .footer-heading {
+    font-size: 12px;
+  }
+}
